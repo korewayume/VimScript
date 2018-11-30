@@ -14,7 +14,8 @@ Plugin 'VundleVim/Vundle.vim'
 " Vundle安装的Plugins
 Plugin 'yianwillis/vimcdoc'
 Plugin 'korewayume/VimScript'
-Plugin 'flazz/vim-colorschemes'
+" Plugin 'flazz/vim-colorschemes'
+Plugin 'dracula/vim'
 Plugin 'The-NERD-tree'
 Plugin 'The-NERD-Commenter'
 
@@ -68,34 +69,34 @@ autocmd FileType python set breakindent
 autocmd FileType python set showbreak=\ \ \ \ 
 
 " colorscheme
-colorscheme herald
+" colorscheme herald
+color dracula
 
 " 自定义herald
-" hi CursorLine             cterm=none      ctermbg=0       " 当前行
-hi Pmenu                    ctermbg=0       ctermfg=white   " 自动补全菜单
-hi Comment                  ctermfg=245                     " 注释配色
-hi Folded                   ctermbg=67      ctermfg=81
+" hi Pmenu                    ctermbg=0       ctermfg=white   " 自动补全菜单
+" hi Comment                  ctermfg=245                     " 注释配色
+" hi Folded                   ctermbg=67      ctermfg=81
 
 " Python高亮
-hi pythonComment            ctermfg=245
-hi pythonSelf               ctermfg=176
-hi pythonBuiltin            ctermfg=176                     " Python内置类型
-hi pythonAttribute          ctermfg=176
-hi pythonStatement          ctermfg=176
-hi pythonConditional        ctermfg=176
-hi pythonRepeat             ctermfg=176
-hi pythonOperator           ctermfg=176
-hi pythonInclude            ctermfg=176
-hi pythonAsync              ctermfg=176
-hi pythonSync               ctermfg=176
-hi pythonException          ctermfg=176
-hi pythonExceptions         ctermfg=180
-hi pythonDecorator          ctermfg=75
-hi pythonDecoratorName      ctermfg=75
-hi pythonTodo               ctermfg=75
-hi pythonFunction           ctermfg=9
-hi pythonString             ctermfg=215
-hi pythonRawString          ctermfg=173
-hi pythonEscape             ctermfg=131
-hi pythonNumber             ctermfg=84
+" hi pythonComment            ctermfg=245
+" hi pythonSelf               ctermfg=176
+" hi pythonBuiltin            ctermfg=176                     " Python内置类型
+" hi pythonAttribute          ctermfg=176
+" hi pythonStatement          ctermfg=176
+" hi pythonConditional        ctermfg=176
+" hi pythonRepeat             ctermfg=176
+" hi pythonOperator           ctermfg=176
+" hi pythonInclude            ctermfg=176
+" hi pythonAsync              ctermfg=176
+" hi pythonSync               ctermfg=176
+" hi pythonException          ctermfg=176
+" hi pythonExceptions         ctermfg=180
+" hi pythonDecorator          ctermfg=75
+" hi pythonDecoratorName      ctermfg=75
+" hi pythonTodo               ctermfg=75
+" hi pythonFunction           ctermfg=9
+" hi pythonString             ctermfg=215
+" hi pythonRawString          ctermfg=173
+" hi pythonEscape             ctermfg=131
+" hi pythonNumber             ctermfg=84
 
