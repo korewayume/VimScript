@@ -41,6 +41,10 @@ source $VIMRUNTIME/vimrc_example.vim
 
 " korewayume
 
+if has('gui_running')
+    set guifont=UbuntuMono-Regular:h24
+endif
+
 map <C-n> :NERDTreeToggle<CR>       " NERDTree快捷键
 
 set number                          " 显示行号
