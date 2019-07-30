@@ -78,7 +78,7 @@ color dracula
 
 " 自定义herald
 " hi Pmenu                    ctermbg=0       ctermfg=white   " 自动补全菜单
-" hi Comment                  ctermfg=245                     " 注释配色
+hi Comment                  ctermfg=250                     " 注释配色
 " hi Folded                   ctermbg=67      ctermfg=81
 
 " Python高亮
