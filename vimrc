@@ -47,6 +47,7 @@ endif
 
 map <C-n> :NERDTreeToggle<CR>       " NERDTree快捷键
 
+set pastetoggle =<F5>               " iterm2 Send Escape Sequence [15~
 set number                          " 显示行号
 set expandtab                       " Use spaces instead of tabs.
 set softtabstop =4                  " Tab key indents by 4 spaces.
@@ -74,7 +75,11 @@ autocmd FileType python set showbreak=\ \ \ \
 
 " colorscheme
 " colorscheme herald
-color dracula
+if has("gui_running")
+  color blue
+else
+  color dracula
+endif
 
 " 自定义herald
 " hi Pmenu                    ctermbg=0       ctermfg=white   " 自动补全菜单
